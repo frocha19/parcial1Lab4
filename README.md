@@ -1,8 +1,8 @@
 ## Parcial 1 - Tema 1 - Laboratorio de Computacion 4 - UTN FRM
-* Importaciones:
-    - npm install --save react-router-dom
-    - npm install react-bootstrap bootstrap
-    - npm install --save google-map-react
-* Comandos:
+# Comandos:
     - npm install
-    - npm run
+    - npm start
+# Importaciones Usadas:
+    - react-router-dom
+    - react-bootstrap bootstrap
+    - google-map-react
