@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import MenuDeOpciones from "./menuDeOpciones";
 import Row from "react-bootstrap/Row";
-import { autos } from "../assets/json/autos.json";
+import autos from "../assets/json/autos.json";
 import Auto from "./auto";
 
 export default class home extends Component {

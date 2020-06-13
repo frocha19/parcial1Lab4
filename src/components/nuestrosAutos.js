@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { autos } from "../assets/json/autos.json";
+import autos from "../assets/json/autos.json";
 import MenuDeOpciones from "./menuDeOpciones";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
