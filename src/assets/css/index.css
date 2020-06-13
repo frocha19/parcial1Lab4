@@ -54,19 +54,6 @@ code {
   font-size: 30px;
 }
 
-.descripcion {
-  margin-top: 5%;
-  text-align: left !important;
-}
-
-.cantidadVendidos {
-  text-align: left !important;
-}
-
-.colDos {
-  margin-left: 20px;
-}
-
 .bodyHome {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
@@ -86,6 +73,6 @@ code {
   color: gray;
 }
 
-.margenIzquierdo{
+.margenIzquierdo {
   margin-left: 2%;
 }
