@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { heroes } from "../assets/json/heroes.json";
+import heroes from "../assets/json/heroes.json";
 import MenuDeOpciones from "./MenuDeOpciones";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
