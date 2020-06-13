@@ -21,7 +21,9 @@ export default class nuestrosAutos extends Component {
           autos.marca.toLowerCase().includes(this.textoBuscar.toLowerCase()) ||
           autos.modelo.toLowerCase().includes(this.textoBuscar.toLowerCase()) ||
           autos.anio.toLowerCase().includes(this.textoBuscar.toLowerCase()) ||
-          autos.localidad.toLowerCase().includes(this.textoBuscar.toLowerCase()) ||
+          autos.localidad
+            .toLowerCase()
+            .includes(this.textoBuscar.toLowerCase()) ||
           autos.precio.toLowerCase().includes(this.textoBuscar.toLowerCase())
         ) {
           this.hayDatos = true;
@@ -61,7 +63,9 @@ export default class nuestrosAutos extends Component {
         <MenuDeOpciones></MenuDeOpciones>
         <Container fluid="md">
           <Row>{autosAll}</Row>
-          <p className="tituloBuscador" hidden={this.hayDatos}>No se encontraron vehiculos con el texto: <b>{this.textoBuscar}</b></p>
+          <p className="tituloBuscador" hidden={this.hayDatos}>
+            No se encontraron vehiculos con el texto: <b>{this.textoBuscar}</b>
+          </p>
         </Container>
       </React.Fragment>
     );
