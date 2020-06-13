@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.tarjeta {
+  width: 50%;
+  margin-top: 1%;
+  margin-left: 22%;
+}
+
+.tarjetaDetalle {
+  margin: 1% auto;
+  text-align: center;
+}
+
+.imagen {
+  height: 200px;
+  padding: 3%;
+  border-radius: 5% !important;
+}
+
+.imagenDetalle {
+  max-height: 450px;
+  max-width: 450px;
+  padding: 2%;
+  margin: 0 auto;
+  border-radius: 10% !important;
+}
+
+.imagenCasa {
+  max-width: 150px;
+  padding: 3%;
+  border-radius: 5% !important;
+}
+
+.tituloBuscador {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.colorNombre {
+  color: darkorange;
+}
+
+.colorPoderes {
+  color: red;
+}
+
+.tabla {
+  margin-top: 10%;
+}
