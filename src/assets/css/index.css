@@ -12,13 +12,6 @@ code {
     monospace;
 }
 
-.tarjeta {
-  margin: 1rem;
-  width: 150px;
-  text-align: center;
-  color: gray;
-}
-
 .tarjetaDetalle {
   margin: 1% auto;
   width: 30%;
@@ -30,22 +23,9 @@ code {
   border-radius: 5% !important;
 }
 
-.precio {
-  color: darkgoldenrod;
-  font-weight: bold;
-}
-
 .titulo {
   margin: 20px auto;
   text-align: center;
-}
-
-.tituloHome {
-  color: red;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  margin-left: 2%;
 }
 
 .tituloBuscador {
@@ -54,38 +34,34 @@ code {
   font-size: 30px;
 }
 
-.descripcion {
-  margin-top: 5%;
-  text-align: left !important;
-}
-
-.cantidadVendidos {
-  text-align: left !important;
-}
-
-.colDos {
-  margin-left: 20px;
-}
-
-.bodyHome {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  margin-left: 2%;
-}
-
-.destacadosHome {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  background-color: orange;
-  color: white;
+.tituloHome {
+  color: green;
+  font-family: Verdana;
+  font-size: 18px;
   font-weight: bold;
-  padding-left: 2%;
+  margin: 1%;
 }
 
-.contactoTitulo {
+.tituloProvincia {
+  color: green;
+}
+
+.tituloMapa {
+  color: blue;
+  font-weight: bold;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.tarjeta {
+  margin: 1rem;
+  width: 250px;
+  text-align: center;
   color: gray;
 }
 
-.margenIzquierdo{
-  margin-left: 2%;
+.margenTop {
+  margin-top: 1%;
 }

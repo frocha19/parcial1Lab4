@@ -8,25 +8,21 @@ import Button from "react-bootstrap/Button";
 export default class MenuDeOpciones extends Component {
   constructor(props) {
     super(props);
-    this.state = { text: '' };
+    this.state = { texto: "allData" };
   }
-  // buscador = (event) => {
-  //   event.preventDefault();
-  //   alert(this.state.text);
-  // }
   cambios = (event) => {
-    this.setState({text: event.target.value});
-  }
+    this.setState({ texto: event.target.value });
+  };
   render() {
     return (
       <React.Fragment>
         <Navbar bg="primary" variant="dark">
-          <Navbar.Brand href="/">Home</Navbar.Brand>
+          <Navbar.Brand href="/allData">Home</Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="/nuestrosAutos/allData">Nuestros Autos</Nav.Link>
-            <Nav.Link href="/contacto">Contacto</Nav.Link>
+            <Nav.Link href="/provincias/puerto">Provincias con Puerto</Nav.Link>
+            <Nav.Link href="/mapa/argentina">Mapa Argentina</Nav.Link>
           </Nav>
-          <Form inline  onSubmit={this.buscador}>
+          <Form inline onSubmit={this.buscador}>
             <FormControl
               type="text"
               placeholder="Buscador"
@@ -34,10 +30,11 @@ export default class MenuDeOpciones extends Component {
               id="bus"
               onChange={this.cambios}
             />
-            {/* <Button variant="success" type="submit" href={`/nuestrosAutos/${this.state.text}`} onClick={this.buscador}>
-              Buscar
-            </Button> */}
-            <Button variant="success" type="submit" href={`/nuestrosAutos/${this.state.text}`} onClick={this.buscador}>
+            <Button
+              variant="success"
+              type="submit"
+              href={`/${this.state.texto}`}
+            >
               Buscar
             </Button>
           </Form>

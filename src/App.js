@@ -1,22 +1,22 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
-import Home from "./components/home";
-import DetalleAuto from "./components/detalleAuto";
-import Contacto from "./components/contacto";
-import NuestrosAutos from "./components/nuestrosAutos";
+import Home from "./components/Home";
+import ProvinciasConPuerto from "./components/ProvinciasConPuerto";
+import MapaArgentina from "./components/MapaArgentina";
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/" component={Home}></Route>
-        <Route path="/contacto" component={Contacto}></Route>
-        <Route path="/nuestrosAutos/:texto" component={NuestrosAutos}></Route>
-        <Route path="/detalleAuto/:id" component={DetalleAuto}></Route>
+        <Route exact path="/:texto" component={Home}></Route>
+        <Route
+          path="/provincias/puerto"
+          component={ProvinciasConPuerto}
+        ></Route>
+        <Route path="/mapa/argentina" component={MapaArgentina}></Route>
+        <Route path="/detalleProvincia/:id" component={MapaArgentina}></Route>
         <Route exact path="/*" component={Home}></Route>
       </Switch>
     );
   }
 }
-
-export default App;
