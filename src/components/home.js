@@ -20,11 +20,8 @@ export default class home extends Component {
             id={i}
             marca={autos.marca}
             modelo={autos.modelo}
-            localidad={autos.localidad}
             imagen={autos.imagen}
-            anio={autos.anio}
             precio={autos.precio}
-            destacado={autos.destacado}
           ></Auto>
         );
       }

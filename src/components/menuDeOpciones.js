@@ -8,12 +8,8 @@ import Button from "react-bootstrap/Button";
 export default class MenuDeOpciones extends Component {
   constructor(props) {
     super(props);
-    this.state = { text: '' };
+    this.state = { text: 'allData' };
   }
-  // buscador = (event) => {
-  //   event.preventDefault();
-  //   alert(this.state.text);
-  // }
   cambios = (event) => {
     this.setState({text: event.target.value});
   }
@@ -34,9 +30,6 @@ export default class MenuDeOpciones extends Component {
               id="bus"
               onChange={this.cambios}
             />
-            {/* <Button variant="success" type="submit" href={`/nuestrosAutos/${this.state.text}`} onClick={this.buscador}>
-              Buscar
-            </Button> */}
             <Button variant="success" type="submit" href={`/nuestrosAutos/${this.state.text}`} onClick={this.buscador}>
               Buscar
             </Button>
