@@ -16,8 +16,7 @@ export default class ListaHeroes extends Component {
   hayDatos = false;
   render() {
     const heroesAll = this.state.heroes.map((heroe) => {
-      console.log(this.textoBuscar);
-      if (this.textoBuscar === "allData") {
+      if (this.textoBuscar === "allData" || this.textoBuscar === undefined) {
         this.hayDatos = true;
         return (
           <Heroe

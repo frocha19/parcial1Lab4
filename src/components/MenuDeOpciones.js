@@ -8,9 +8,8 @@ import Button from "react-bootstrap/Button";
 export default class MenuDeOpciones extends Component {
   constructor(props) {
     super(props);
-    this.state = { texto: "" };
+    this.state = { texto: "allData" };
   }
-  texto = "allData";
   cambios = (event) => {
     this.setState({ texto: event.target.value });
   };
