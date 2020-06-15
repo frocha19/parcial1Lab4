@@ -5,7 +5,5 @@
 ## Framework y Librerias usadas:
     - VueJs
     - BootstrapVue
-    - Font Awesome
-    - Axios
 ## Direccion del Servidor Local:
     - http://localhost:8080/
