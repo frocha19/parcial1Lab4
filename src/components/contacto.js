@@ -20,7 +20,7 @@ export default class Contacto extends Component {
             ¿Aún querés escribirnos?, entonces envíanos tus consultas, dudas o
             sugerencias{" "}
             <a href="mailto:aconsultas@atodomotor.com.ar">
-              aconsultas@atodomotor.com.ar
+              <u>aconsultas@atodomotor.com.ar</u>
             </a>
             , te responderemos a la brevedad.
           </p>
