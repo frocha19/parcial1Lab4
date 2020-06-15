@@ -1,0 +1,108 @@
+[{
+		"marca": "Ford",
+		"modelo": "Nueva Ranger 2015",
+		"localidad": "Ciudad",
+		"imagen": "1.jpg",
+		"anio": "2016",
+		"precio": "700000",
+		"destacado": "Y"
+	},
+	{
+		"marca": "Dodge",
+		"modelo": "Journey",
+		"localidad": "San Fernando del Valle de Catamarca",
+		"imagen": "2.jpg",
+		"anio": "2017",
+		"precio": "750000",
+		"destacado": "N"
+	},
+	{
+		"marca": "Ford",
+		"modelo": "Focus II 2012 ",
+		"localidad": "GodoyCruz",
+		"imagen": "3.jpg",
+		"anio": "2012",
+		"precio": "300000",
+		"destacado": "Y"
+	},
+	{
+		"marca": "Volkswagen",
+		"modelo": "Gol 2007",
+		"localidad": "San Martin",
+		"imagen": "4.jpg",
+		"anio": "2007",
+		"precio": "115000",
+		"destacado": "N"
+	},
+	{
+		"marca": "Chevrolet",
+		"modelo": "Cruze 2012",
+		"localidad": "Guaymallen",
+		"imagen": "5.jpg",
+		"anio": "2012",
+		"precio": "325000",
+		"destacado": "N"
+	},
+	{
+		"marca": "Toyota",
+		"modelo": "Corolla 2015",
+		"localidad": "Las Heras",
+		"imagen": "6.jpg",
+		"anio": "2015",
+		"precio": "3308876",
+		"destacado": "N"
+	},
+	{
+		"marca": "Chevrolet",
+		"modelo": "S-10 2006",
+		"localidad": "San Rafael",
+		"imagen": "7.jpg",
+		"anio": "2006",
+		"precio": "320000",
+		"destacado": "Y"
+	},
+	{
+		"marca": "Toyota",
+		"modelo": "Corolla 2014",
+		"localidad": "Malargue",
+		"imagen": "8.jpg",
+		"anio": "2014",
+		"precio": "400000",
+		"destacado": "N"
+	},
+	{
+		"marca": "Nissan",
+		"modelo": "TIIda 2013 ",
+		"localidad": "Tupungato",
+		"imagen": "9.jpg",
+		"anio": "2013",
+		"precio": "265000"
+	},
+	{
+		"marca": "Toyota",
+		"modelo": "Hilux 0 Km",
+		"localidad": "Tunuyan",
+		"imagen": "10.jpg",
+		"anio": "2018",
+		"precio": "0",
+		"destacado": "N"
+	},
+	{
+		"marca": "Toyota",
+		"modelo": "Hilux 0 Km",
+		"localidad": "Gral. Alvear",
+		"imagen": "11.jpg",
+		"anio": "2018",
+		"precio": "0",
+		"destacado": "Y"
+	},
+	{
+		"marca": "Ford",
+		"modelo": "EcoSport KD 2014 ",
+		"localidad": "Maipu",
+		"imagen": "12.jpg",
+		"anio": "2014",
+		"precio": "390000",
+		"destacado": "N"
+	}
+]
