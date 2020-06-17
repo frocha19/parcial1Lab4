@@ -22,7 +22,7 @@ export default class MenuDeOpciones extends Component {
             <Nav.Link href="/heroesDC">Heroes DC</Nav.Link>
             <Nav.Link href="/heroesMarvel">Heroes Marvel</Nav.Link>
           </Nav>
-          <Form inline onSubmit={this.buscador}>
+          <Form inline>
             <FormControl
               type="text"
               placeholder="Buscador"
@@ -34,7 +34,6 @@ export default class MenuDeOpciones extends Component {
               variant="success"
               type="submit"
               href={`/${this.state.texto}`}
-              onClick={this.buscador}
             >
               Buscar
             </Button>
