@@ -9,7 +9,7 @@
           <b-nav-item href="/contacto">Contacto</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
-          <b-nav-form>
+          <b-nav-form v-on:submit.prevent="search()">
             <b-form-input
               size="sm"
               class="mr-sm-2"
