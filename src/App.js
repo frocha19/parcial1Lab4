@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./components/Home";
 import ProvinciasConPuerto from "./components/ProvinciasConPuerto";
 import MapaArgentina from "./components/MapaArgentina";
+import DetalleProvincia from "./components/DetalleProvincia";
 
 export default class App extends Component {
   render() {
@@ -14,7 +15,7 @@ export default class App extends Component {
           component={ProvinciasConPuerto}
         ></Route>
         <Route path="/mapa/argentina" component={MapaArgentina}></Route>
-        <Route path="/detalleProvincia/:id" component={MapaArgentina}></Route>
+        <Route path="/detalleProvincia/:id" component={DetalleProvincia}></Route>
         <Route exact path="/*" component={Home}></Route>
       </Switch>
     );

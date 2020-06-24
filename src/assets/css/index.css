@@ -23,6 +23,12 @@ code {
   border-radius: 5% !important;
 }
 
+.imagenDetalle {
+  margin: 0 auto;
+  width: 100px !important;
+  border-radius: 5% !important;
+}
+
 .titulo {
   margin: 20px auto;
   text-align: center;

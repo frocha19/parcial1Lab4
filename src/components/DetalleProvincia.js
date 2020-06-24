@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import MenuDeOpciones from "./MenuDeOpciones";
 
-export default class detalleAuto extends Component {
+export default class DetalleProvincia extends Component {
   constructor() {
     super();
     this.state = {
@@ -21,9 +21,9 @@ export default class detalleAuto extends Component {
         <MenuDeOpciones> </MenuDeOpciones>
         <Card className="tarjetaDetalle">
           <Card.Img
-            className="imagen"
+            className="imagenDetalle"
             variant="top"
-            src={require(`../assets/img/${provincia.imagen}`)}
+            src={require(`../assets/img/${provincia.bandera}`)}
           />
           <Card.Body>
             <Card.Text>
