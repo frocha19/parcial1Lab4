@@ -1,22 +1,27 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import ListaHeroes from "../views/ListaHeroes.vue";
-import DetalleHeroe from "../views/DetalleHeroe.vue";
+import Home from "../views/Home.vue";
+import DetalleProvincia from "../views/DetalleProvincia.vue";
+import MapaArgentina from "../views/MapaArgentina.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "",
-    component: ListaHeroes
+    component: Home
   },
   {
     path: "/:texto",
-    component: ListaHeroes
+    component: Home
   },
   {
-    path: "/detalleHeroe/:id",
-    component: DetalleHeroe
+    path: "/detalleProvincia/:id",
+    component: DetalleProvincia
+  },
+  {
+    path: "/mapa/Argentina",
+    component: MapaArgentina
   }
 ];
 

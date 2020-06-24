@@ -5,8 +5,10 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="/heroesDC">Heroes DC</b-nav-item>
-          <b-nav-item href="/heroesMarvel">Heroes Marvel</b-nav-item>
+          <b-nav-item href="/proviciasConPuerto"
+            >Provincias con Puerto</b-nav-item
+          >
+          <b-nav-item href="/mapa/Argentina">Mapa Argentina</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-form v-on:submit.prevent="search()">
