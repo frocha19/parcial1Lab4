@@ -16,7 +16,11 @@ export default class home extends Component {
   render() {
     console.log(this.state.provincias);
     const provinciasAll = this.state.provincias.map((provincia, i) => {
-      if (this.textoBuscar === "allData") {
+      if (
+        this.textoBuscar === "allData" ||
+        this.textoBuscar === null ||
+        this.textoBuscar === undefined
+      ) {
         this.hayDatos = true;
         return (
           <Provincia
